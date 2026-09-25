@@ -28,10 +28,3 @@ pacman -S mingw-w64-ucrt-x86_64-raylib
 g++ pong.cpp -o pong.exe -lraylib -lopengl32 -lgdi32 -lwinmm
 ./pong.exe
 ```
-
-## Possible improvements
-
-- Two-player mode with separate scoring
-- Increasing ball speed over time for difficulty scaling
-- Sound effects on paddle/wall hits
-- Start/game-over screens
